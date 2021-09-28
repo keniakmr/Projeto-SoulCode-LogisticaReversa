@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!--Caixa que contem todos os dados de contato-->
+  <Fieldset>
+<!--Formulario para contato-->
+    <h2>
+      <legend> Informação de contato para Parceria </legend> 
+    </h2>
+    <form>
+       <!--Radio é usado para seleção de um unico elemento da lista-->
+       <br>
+       <label for="tipodeassunto"> Tipo de parceiro: </label> <br>
+       <input type="radio" id="empresa" name=tipodeassunto > Parceiro COLETOR<br>
+       <input type="radio" id="cliente" name=tipodeassunto > Parceiro FABRICANTE<br>      
+       <br> 
+      <br>
+<!--Abaixo dados de contato do formulario-->
+<!--Recebe nome-->
+      <label for="nome"> Nome do contato: </label>   
+      <input type="text" id="nome" placeholder="Digite  aqui o contato">
+      <br>
+      <br>
+ <!--Recebe o nome da empresa-->
+      <label for="empresa"> Empresa/Instituição: </label>   
+      <input type="text" id="empresa" placeholder="Digite aqui o Nome" >
+      <br>
+      <br>
+ <!--Recebe o CNPJ/CPF-->
+      <label for="CNPJ/CPF"> CNPJ/CPF: </label>   
+      <input type="text" id="CNPJCPF" >
+      <br>
+      <br>
+  <!--Recebe o email-->
+      <label for="email">Email: </label>
+      <input type="email" id="email" placeholder="Digite  aqui email">
+      <br>
+      <br>
+  <!--Recebe o endereço-->
+      <label for="endereço">Endereço:</label>
+      <input type="endereco" id="endereco" placeholder="Digite  aqui endereço" >
+      <br>
+      <br>
+   <!--Recebe o telefone-->
+      <label for="telefone">Telefone: </label>
+      <input type="tel"  id="telefone" placeholder="(XX)-XXXX-XXXX" >
+      <br>
+      <br>
+  <!--Recebe a mesagem-->
+      <label for="Mensagem"> Mensagem: </label>
+      <textarea   id="mensagem" rows="5" cols="33"></textarea>
+      <br>
+      <br>
+      <br>
+<!--Botão para confirmação-->
+      <button type="submit"> Confirmar </button>
+<!--Botão para limpar-->
+      <button type="reset" > Limpar </button> 
+      <br>
+      <br>
+    </form>
+  </Fieldset> 
+  <h4>
+<!--Volta a pagina principal-->    
+  <a href="index.html" target="_self">Voltar a página anterior</a>
+  </h4>
+</body>
+</html>
